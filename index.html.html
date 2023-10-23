@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+    <style>
+      body{
+      background-color:lightblue;
+      }
+    </style>
+</head>
+<body>
+    <h1> Payment Form</h1>
+    <hr>
+    <h2> User Information</h2>
+    <p>
+        Name:
+        <input type="text" name="name" placeholder="Name">
+    </p>
+    <hr>
+    <p>
+        <fieldset>
+        Gender:
+        Male<input type="radio" name="Gender" id="male" required> Feamle<input type="radio" name="Gender" id="female">
+    </fieldset>
+    </p>
+    <hr>
+    <p>
+        Adress:
+        <br>
+        <textarea placeholder="Enter Your Adress" name="adress" id="adress"  cols="100" rows="8"></textarea>
+    </p>
+    <hr>
+    <p>
+        Email:
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+    </p>
+    <hr>
+    <p>
+        Pincode:
+        <input type="123" name="pincode" id="pincode" palceholder="123">
+    </p>
+    <hr>
+    <h1> Payment Information</h1>
+    <p> Card Type
+    <select name="card type" id="card type" required>
+    <option value=""></option>---select card type---</option>
+    <option value="visa">Visa</option>
+    <option value="rupay">Rupay </option>
+    <option value="master">Master</option>
+</select>
+</p>
+<hr>
+  <p>
+    Card No:
+    <input type="123" name="card number" id="card number" placeholder="enter card no:">
+  </p>
+  <hr>
+  <p>
+    Expiry Date:
+    <input type="date" name="expiry date" id="date">
+  </p>
+  <hr>
+  <p>
+    CVV:
+    <input type="123" name="cvv" id="cvv">
+  </p>
+  <hr>
+  <p>
+    <button type="button">Pay Now</button>
+  </p>
+</body>
+</html>
